@@ -10,7 +10,7 @@ function ListGroup({items, heading}: Props) {
 
   return (
     <>
-      <h1>list of {heading}</h1>
+      <h2>list of {heading}</h2>
       <ul className="list-group">
         {items.map((item, index) => (
           <li
