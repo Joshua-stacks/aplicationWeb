@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <Header/>
+      <Header />
       <ListGroup items={items} heading="cities" />
     </div>
   );
