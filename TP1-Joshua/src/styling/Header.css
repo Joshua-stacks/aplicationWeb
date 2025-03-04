@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21222A;
+    color: white;
+    
+}
+.header a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.header a:visited {
+    color: inherit;
+}
+
+.header a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+h2{
+    margin-left: 7px;
+}
+
+.imgLogo {
+  width: 25px;
+  height: 50px;
+}

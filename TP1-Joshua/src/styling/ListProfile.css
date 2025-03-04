@@ -1,0 +1,16 @@
+.imageList {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.profile-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.profilePic {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}

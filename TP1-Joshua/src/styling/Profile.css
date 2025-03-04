@@ -1,0 +1,91 @@
+/* Profile Section */
+.profile {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.profile-name-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-name-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.profile-user-name {
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+.profile-bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.profile-stats {
+    margin-top: 2rem;
+}
+
+.profile-stats li {
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-right: 4rem;
+}
+
+/* Card List Section */
+.card-list {
+    display: block;
+    margin: 1rem auto;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.card {
+    display: inline-block;
+    width: 90%;
+    max-width: 20rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card:hover {
+    transform: translateY(-0.5rem) scale(1.0125);
+    box-shadow: 0 0.5em 3rem -1rem rgba(0, 0, 0, 0.5);
+}
+
+.card-image {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-description {
+    padding: 1em 0.5em;
+    color: rgba(255, 255, 255, 0.759);
+}
+
+.card-description > h2 {
+    margin: 0 0 0.5em;
+}
+
+.card-description > p {
+    margin: 0;
+}
